@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #f6f4f4 16.62%, #f4f1f0 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #0e0d0d;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #111010;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #0d0d0d;
+  margin-top: 20px;  /* adiciona margem top 20 pixels */
+  margin-left: 20px; /* adiciona margem lateral esquerda de 20 pixels */
+  margin-right: 20px; /* adiciona margem lateral direita de 20 pixels */
+}
+
+.conteudo-principal-escrito-subtitulo1 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0f0f0e;
+    text-align: justify;
+    margin-left: 20px; /* adiciona margem lateral esquerda de 20 pixels */
+    margin-right: 99px; /* adiciona margem lateral direita de 20 pixels */
+  }
+
+.conteudo-principal-escrito-subtitulo2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #0f0f0e;
+    text-align: justify;
+    margin-left: 20px; /* adiciona margem lateral esquerda de 20 pixels */
+    margin-right: 99px; /* adiciona margem lateral direita de 20 pixels */
+  }
+
+.conteudo-principal-imagem {
+  height: 630px;
+  margin-top: 20px;
+  margin-left: 99px; /* adiciona margem lateral esquerda de 20 pixels */
+  margin-right: 20px; /* adiciona margem lateral direita de 20 pixels */
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #0f0f0f;
+    margin-top: 50px;
+  }
+  
+  .professor-info {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .atualizacao-info {
+    font-weight: bold;
+    text-align: right;
+    float: right;
+  }
+
+
+
+/* Este codigo reajusta todos os parâmetros do css listados para o caso de a tela ser menor */
+
+
+  @media only screen and (max-width: 768px) {
+    .conteudo-principal {
+      flex-direction: column;
+    }
+    
+    .cabecalho-menu {
+        display: flex;
+        gap: 16px;
+      }
+      
+    .cabecalho-menu-item {
+        font-family: 'Sarala', sans-serif;
+        color: #0e0d0d;
+        font-weight: 200;
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+
+
+    .conteudo-principal-imagem {
+        order: 1;
+        margin-top: 50px;
+        height: 400px;
+        margin-bottom: 20px;
+      }
+
+      
+    .conteudo-principal-escrito {
+      order: 2;
+      margin-top: 1px;
+    }
+    
+
+  
+    .conteudo-principal-escrito-titulo,
+    .conteudo-principal-escrito-subtitulo1,
+    .conteudo-principal-escrito-subtitulo2 {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+  }
+  
+  
+
+
