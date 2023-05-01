@@ -64,34 +64,68 @@ body {
   margin-bottom: 80px;
 }
 
-.conteudo-principal-escrito-subtitulo1 {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #0f0f0e;
-    text-align: justify;
-    margin-top: 1px;
-    margin-left: 1px; /* adiciona margem lateral esquerda de 20 pixels */
-    margin-right: 99px; /* adiciona margem lateral direita de 20 pixels */
-  }
-
-.conteudo-principal-escrito-subtitulo2 {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    color: #0f0f0e;
-    text-align: justify;
-    margin-left: 20px; /* adiciona margem lateral esquerda de 20 pixels */
-    margin-right: 99px; /* adiciona margem lateral direita de 20 pixels */
-  }
-
-.conteudo-principal-imagem {
-  height: 630px;
-  margin-top: 20px;
-  margin-left: 99px; /* adiciona margem lateral esquerda de 20 pixels */
-  margin-right: 20px; /* adiciona margem lateral direita de 20 pixels */
+.botaoinit {
+  background-color: #975f04;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #888888;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 0px;
+  width: 170px; /* define a largura fixa dos botões */
 }
 
+
+.botoes {
+  background-color: #975f04;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #888888;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 0px;
+  width: 170px; /* define a largura fixa dos botões */
+}
+
+.botaoRetur {
+/* centralizando botao */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+/* centralizando botao */
+
+  text-align: center;
+  background-color: #975f04;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #888888;
+  margin-top: 140px;
+  width: 170px; /* define a largura fixa dos botões */
+}
 
 
 
