@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #000000 16.62%, #070707 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #f3f0f0;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #f7f4f4;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-weight: 400;
+  font-size: 64px;
+  color: #f8f3f3;
+  margin-top: 10px;  /* adiciona margem top 20 pixels */
+  margin-left: 20px; /* adiciona margem lateral esquerda de 20 pixels */
+  margin-right: 20px; /* adiciona margem lateral direita de 20 pixels */
+  margin-bottom: 0px;
+}
+
+
+.botoes {
+  background-color: #975f04;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #888888;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 0px;
+  width: 170px; /* define a largura fixa dos botões */
+}
+
+.botaoRetur {
+/* centralizando botao */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+/* centralizando botao */
+
+  text-align: center;
+  background-color: #975f04;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #888888;
+  margin-top: 140px;
+  width: 170px; /* define a largura fixa dos botões */
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #f2eeee;
+    margin-top: 50px;
+  }
+  
+  .professor-info {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .atualizacao-info {
+    font-weight: bold;
+    text-align: right;
+    float: right;
+  }
+
+
+  
+  
+
+/* Este codigo reajusta todos os parâmetros do css listados para o caso de a tela ser menor */
+
+
+  @media only screen and (max-width: 768px) {
+    .conteudo-principal {
+      flex-direction: column;
+    }
+    
+    .cabecalho-menu {
+        display: flex;
+        gap: 16px;
+      }
+      
+    .cabecalho-menu-item {
+        font-family: 'Sarala', sans-serif;
+        color: #0e0d0d;
+        font-weight: 200;
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+
+
+    .conteudo-principal-imagem {
+        order: 1;
+        margin-top: 50px;
+        height: 400px;
+        margin-bottom: 20px;
+      }
+
+      
+    .conteudo-principal-escrito {
+      order: 2;
+      margin-top: 1px;
+    }
+    
+
+  
+    .conteudo-principal-escrito-titulo,
+    .conteudo-principal-escrito-subtitulo1,
+    .conteudo-principal-escrito-subtitulo2 {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+  }
+  
+  
+
+
