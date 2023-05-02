@@ -137,29 +137,7 @@ body {
 
 
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 14px;
-  color: #0f0f0f;
-  margin-top: 50px;
-}
 
-.professor-info {
-  font-weight: bold;
-  text-align: left;
-  margin-left: 10px; /* adiciona margem lateral esquerda de 20 pixels */
-  margin-right: 10px; /* adiciona margem lateral direita de 20 pixels */
-}
-
-.atualizacao-info {
-  font-weight: bold;
-  text-align: right;
-  float: right;
-  margin-left: 10px; /* adiciona margem lateral esquerda de 20 pixels */
-  margin-right: 10px; /* adiciona margem lateral direita de 20 pixels */
-}
 
 
   
